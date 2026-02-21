@@ -22,8 +22,8 @@ cask "myos" do
   app "myOS.app"
 
   zap trash: [
-    "~/Library/Application Support/myOS",
     "~/Library/Application Support/app.myos.myOS",
+    "~/Library/Application Support/myOS",
     "~/Library/Caches/app.myos.myOS",
     "~/Library/Preferences/app.myos.myOS.plist",
     "~/Library/Saved Application State/app.myos.myOS.savedState",
